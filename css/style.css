@@ -6,12 +6,17 @@
 
 body {
     background-color: slategray;
+    height: 100vh;
+    width: 100vh;
+}
+
+.div-main{
+    position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 100vh;
-    width: 100vh;
+    top: 20%;
 }
 
 .main {
@@ -77,7 +82,7 @@ body {
     height: 50px;
     bottom: -3px;
     float: right;
-    left: 85px;
+    left: 102px;
 }
 
 .decoration .left-hr {
@@ -100,19 +105,19 @@ body {
 .advice-click {
     position: absolute;
     width: 30px;
-    bottom: 189px;
-    left: 675px;
+    bottom: 36px;
+    left: 250px;
     border-radius: 10px;
     border: 1px solid aqua;
     background-color: black;
 }
 
-@media (max-width: 1037px) {
+@media (max-width: 1027px) {
     .main {
         background-color: rgb(38, 57, 77);
         position: relative;
         display: flex;
-        left: 166px;
+        left: 264px;
         border-radius: 20px;
         justify-content: center;
         text-align: center;
@@ -127,21 +132,20 @@ body {
         position: relative;
         width: 100px;
         height: 50px;
-        top: -52px;
+        top: -62px;
         float: right;
-        left: -150px;
+        left: -20px;
     }
 
     .advice-click {
         position: absolute;
         width: 30px;
-        bottom: 232px;
-        left: 419px;
+        bottom: 36px;
+        left: 44%;
         border-radius: 10px;
         border: 1px solid aqua;
         background-color: black;
     }
-
 
 }
 
@@ -150,7 +154,7 @@ body {
         background-color: rgb(38, 57, 77);
         position: relative;
         display: flex;
-        left: 39px;
+        left: 135px;
         border-radius: 20px;
         justify-content: center;
         text-align: center;
@@ -164,29 +168,29 @@ body {
         position: relative;
         width: 100px;
         height: 50px;
-        top: -52px;
+        top: -64px;
         float: right;
-        left: -276px;
+        left: -149px;
     }
 
     .advice-click {
         position: absolute;
         width: 30px;
-        bottom: 232px;
-        left: 293px;
+        bottom: 36px;
+        left: 44%;
         border-radius: 10px;
         border: 1px solid aqua;
         background-color: black;
     }
-
 }
 
-@media (max-width: 1038px) {
+@media (max-width: 320px) {
     .main {
         background-color: rgb(38, 57, 77);
         position: relative;
         display: flex;
-        left: 230px;
+        left: 43px;
+        top: 1px;
         border-radius: 20px;
         justify-content: center;
         text-align: center;
@@ -200,16 +204,16 @@ body {
         position: relative;
         width: 100px;
         height: 50px;
-        top: -52px;
+        top: 2px;
         float: right;
-        left: -97px;
+        left: -240px;
     }
 
     .advice-click {
         position: absolute;
         width: 30px;
-        bottom: 233px;
-        left: 473px;
+        bottom: 36px;
+        left: 44%;
         border-radius: 10px;
         border: 1px solid aqua;
         background-color: black;
@@ -217,13 +221,13 @@ body {
 
 }
 
-
-@media (max-width: 1195px) {
+@media (max-width: 425px) {
     .main {
         background-color: rgb(38, 57, 77);
         position: relative;
         display: flex;
-        left: 230px;
+        left: 43px;
+        top: 1px;
         border-radius: 20px;
         justify-content: center;
         text-align: center;
@@ -237,19 +241,24 @@ body {
         position: relative;
         width: 100px;
         height: 50px;
-        top: -52px;
+        top: 2px;
         float: right;
-        left: -97px;
+        left: -240px;
     }
 
     .advice-click {
         position: absolute;
         width: 30px;
-        bottom: 233px;
-        left: 473px;
+        bottom: 36px;
+        left: 44%;
         border-radius: 10px;
         border: 1px solid aqua;
         background-color: black;
     }
 
 }
+
+
+
+
+
