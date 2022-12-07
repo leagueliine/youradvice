@@ -1,0 +1,255 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+.main {
+    background-color: rgb(38, 57, 77);
+    position: relative;
+    display: flex;
+    left: 414px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 550px;
+    height: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border: 1px solid aqua;
+}
+
+.main .header {
+    background-color: rgba(50, 50, 93, 0.25);
+    position: relative;
+    width: 30%;
+    height: 18px;
+    top: 15px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.main .header .hr {
+    position: relative;
+    top: 1px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 200px;
+    left: -17px;
+    opacity: 0.1;
+}
+
+.main .header .titulo {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.main .advice-div {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    padding: 20px;
+}
+
+.main .advice-div .advice {
+    position: block;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aquamarine;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.decoration {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    bottom: -3px;
+    float: right;
+    left: 85px;
+}
+
+.decoration .left-hr {
+    position: absolute;
+    bottom: -96px;
+    left: 70px;
+    width: 100px;
+    opacity: 0.3;
+}
+
+.decoration .right-hr {
+    position: absolute;
+    bottom: -96px;
+    right: 70px;
+    width: 100px;
+    opacity: 0.3;
+}
+
+
+.advice-click {
+    position: absolute;
+    width: 30px;
+    bottom: 189px;
+    left: 675px;
+    border-radius: 10px;
+    border: 1px solid aqua;
+    background-color: black;
+}
+
+@media (max-width: 1037px) {
+    .main {
+        background-color: rgb(38, 57, 77);
+        position: relative;
+        display: flex;
+        left: 166px;
+        border-radius: 20px;
+        justify-content: center;
+        text-align: center;
+        width: 550px;
+        height: 350px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        border: 1px solid aqua;
+        bottom: 66px;
+    }
+
+    .decoration {
+        position: relative;
+        width: 100px;
+        height: 50px;
+        top: -52px;
+        float: right;
+        left: -150px;
+    }
+
+    .advice-click {
+        position: absolute;
+        width: 30px;
+        bottom: 232px;
+        left: 419px;
+        border-radius: 10px;
+        border: 1px solid aqua;
+        background-color: black;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .main {
+        background-color: rgb(38, 57, 77);
+        position: relative;
+        display: flex;
+        left: 39px;
+        border-radius: 20px;
+        justify-content: center;
+        text-align: center;
+        width: 550px;
+        height: 350px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        border: 1px solid aqua;
+    }
+
+    .decoration {
+        position: relative;
+        width: 100px;
+        height: 50px;
+        top: -52px;
+        float: right;
+        left: -276px;
+    }
+
+    .advice-click {
+        position: absolute;
+        width: 30px;
+        bottom: 232px;
+        left: 293px;
+        border-radius: 10px;
+        border: 1px solid aqua;
+        background-color: black;
+    }
+
+}
+
+@media (max-width: 1038px) {
+    .main {
+        background-color: rgb(38, 57, 77);
+        position: relative;
+        display: flex;
+        left: 230px;
+        border-radius: 20px;
+        justify-content: center;
+        text-align: center;
+        width: 550px;
+        height: 350px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        border: 1px solid aqua;
+    }
+
+    .decoration {
+        position: relative;
+        width: 100px;
+        height: 50px;
+        top: -52px;
+        float: right;
+        left: -97px;
+    }
+
+    .advice-click {
+        position: absolute;
+        width: 30px;
+        bottom: 233px;
+        left: 473px;
+        border-radius: 10px;
+        border: 1px solid aqua;
+        background-color: black;
+    }
+
+}
+
+
+@media (max-width: 1195px) {
+    .main {
+        background-color: rgb(38, 57, 77);
+        position: relative;
+        display: flex;
+        left: 230px;
+        border-radius: 20px;
+        justify-content: center;
+        text-align: center;
+        width: 550px;
+        height: 350px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        border: 1px solid aqua;
+    }
+
+    .decoration {
+        position: relative;
+        width: 100px;
+        height: 50px;
+        top: -52px;
+        float: right;
+        left: -97px;
+    }
+
+    .advice-click {
+        position: absolute;
+        width: 30px;
+        bottom: 233px;
+        left: 473px;
+        border-radius: 10px;
+        border: 1px solid aqua;
+        background-color: black;
+    }
+
+}
