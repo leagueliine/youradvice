@@ -106,13 +106,13 @@ body {
     position: absolute;
     width: 30px;
     bottom: 36px;
-    left: 250px;
+    left: 271px;
     border-radius: 10px;
     border: 1px solid aqua;
     background-color: black;
 }
 
-@media (max-width: 1027px) {
+@media (max-width: 1024px) {
     .main {
         background-color: rgb(38, 57, 77);
         position: relative;
@@ -141,7 +141,7 @@ body {
         position: absolute;
         width: 30px;
         bottom: 36px;
-        left: 44%;
+        left: 226px;
         border-radius: 10px;
         border: 1px solid aqua;
         background-color: black;
@@ -177,7 +177,7 @@ body {
         position: absolute;
         width: 30px;
         bottom: 36px;
-        left: 44%;
+        left: 226px;
         border-radius: 10px;
         border: 1px solid aqua;
         background-color: black;
@@ -189,7 +189,7 @@ body {
         background-color: rgb(38, 57, 77);
         position: relative;
         display: flex;
-        left: 43px;
+        left: 226px;
         top: 1px;
         border-radius: 20px;
         justify-content: center;
@@ -250,7 +250,7 @@ body {
         position: absolute;
         width: 30px;
         bottom: 36px;
-        left: 44%;
+        left: 226px;
         border-radius: 10px;
         border: 1px solid aqua;
         background-color: black;
